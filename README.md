@@ -10,7 +10,7 @@ Each video will be associated with a branch so checkout the one you are interest
 
 Make sure to remove or move your current `nvim` directory
 
-**IMPORTANT** Requires [Neovim v0.8.0]](https://github.com/neovim/neovim/releases).  [Upgrade](#upgrade-to-latest-release) if you're on an earlier version. 
+**IMPORTANT** Requires [Neovim v0.8.0](https://github.com/neovim/neovim/releases).  [Upgrade](#upgrade-to-latest-release) if you're on an earlier version. 
 ```
 git clone https://github.com/LunarVim/Neovim-from-scratch.git ~/.config/nvim
 ```
@@ -70,6 +70,7 @@ Assuming you [built from source](https://github.com/neovim/neovim/wiki/Building-
 ```
 git pull
 make distclean && make CMAKE_BUILD_TYPE=Release
+git checkout v0.8.0
 sudo make install
 nvim -v
 ```
